@@ -4,6 +4,10 @@ Este repositorio contiene la implementación de un sistema de control **Hardware
 
 El proyecto integra un modelo de planta virtual (**Factory I/O**) con lógica de control externa, comunicando sensores y actuadores industriales en tiempo real mediante el protocolo estándar **Modbus TCP**.
 
+<p align="center">
+  <img src="Screenshot 2026-09-21 180749.png" alt="Gemelo Digital Factory IO" width="800"/>
+</p>
+
 ## ⚙️ Arquitectura de Integración IT/OT
 
 El sistema puentea el mundo informático (IT) y el operativo (OT) sin depender de bloques de control predefinidos en TIA Portal, trasladando el peso computacional del cálculo analógico a un script de Python.
